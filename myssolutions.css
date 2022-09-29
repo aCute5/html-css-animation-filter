@@ -85,3 +85,48 @@
     }
      
 }
+.ex-12-button:hover .ex-12-bottom-white{
+                animation: button 1.5s linear;
+}
+@keyframes button{
+    0%{
+        right: 0%;
+    }
+    50%{
+        right: 30%;
+    }
+    60%{
+        right:50%;
+    }
+    70%{
+        right: 60%;
+    }
+    80%{
+        right: 40%;
+    }
+    100%{
+        right: 0%;
+    }
+}
+.ex-12-button:hover .ex-12-top-white{
+    animation: button2 1.5s linear;
+}
+@keyframes button2{
+    0%{
+        left: 0%;
+    }
+    50%{
+        left: 30%;
+    }
+    60%{
+        left:50%;
+    }
+    70%{
+        left: 60%;
+    }
+    80%{
+        left: 40%;
+    }
+    100%{
+        left: 0%;
+    }
